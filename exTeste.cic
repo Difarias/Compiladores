@@ -1,0 +1,10 @@
+programa
+    imprima("Digite 2 valores para A e B, respectivamente")
+    leia(<a>)
+    leia(<b>)
+
+    enquanto <a> > <b>
+       <b> = <a> + 11.2
+    
+    se <a> = <b> entao
+        fim_programa
