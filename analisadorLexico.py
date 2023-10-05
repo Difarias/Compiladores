@@ -1109,7 +1109,7 @@ def main():
 
     inicializar_contadores()
     
-    resposta_arquivo = ler_arquivo('ex4.cic')
+    resposta_arquivo = ler_arquivo('ex3.cic')
     palavra_aux = ''
     
     if resposta_arquivo == True:
