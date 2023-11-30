@@ -1,0 +1,20 @@
+Comandos Linux terminal:
+
+1° sudo su postgres = entrar no user postgres
+2° psql -l          = verificar os sgbds existentes
+3° postgres@diego   = usuario postgres
+4° \l               = logado em um banco(psql nome), lista os bancos
+
+--Observação: dropdb e createdb são usados logo após o passo 1°(não recomendado, apenas use qnd tiver dificuldades nesses processos); já o comando DROP e CREATE DATABASE são usados dentro de um "login" em um banco pelo psql
+
+5° Na minha máquina, não estava conseguindo ter acesso à pasta home/diego, necessitei usar o comando: cd /home/diego/Dowloads(esse é o dirétorio que meu arquivo sql estava e não estava tendo acesso). Ao finalizar, executei o psql aluguelquadra <aluguel.sql, para carregar o arquivo inteiro
+
+
+
+
+
+
+
+
+\du (no usuario)    = verificar as permissões que os usuários tem
+
